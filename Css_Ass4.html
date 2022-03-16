@@ -1,0 +1,59 @@
+<html>
+    <head> 
+        <!-- Metadat -->
+        <meta charset="UTF-8">
+        <meta name="CSS-Assignment 1" content="HTML and CSS">
+ 
+       <title>CSS_Ass_3</title>
+       <!-- images are cropped and applied in the respective divs -->
+       <style>
+           
+           #div1,#div2,#div3
+              {
+                 border :3px solid;
+                 margin-bottom :7px;
+              }
+           #innerdiv2,#innerdiv4,#innerdiv6
+              {
+                  height :19%;
+                  width  :100%;
+                  background-repeat :no-repeat;
+                  background-size :100% 100%;
+              }
+           #innerdiv2
+              {
+                  background-image :url("http://drive.google.com/uc?id=10myh8HcHIrLzBeYJvyM-adzsHJnt7lsi");
+              }
+           #innerdiv4
+              {
+                  background-image :url("http://drive.google.com/uc?id=1Zkh52WOI60zLXFVKktuPAOyn6XSJQK52");
+              }
+          
+           #innerdiv6
+              {
+                 background-image :url("http://drive.google.com/uc?id=11kiZH5KxKphqwKSAVotrIcpuVqawnjnF");
+                 width :500px;
+                 height :300px;
+                 object-fit: contain;
+                 position :relative;
+                 left :32%;
+              }
+
+       </style>
+    </head>
+    <body> 
+       <!-- Divs are created as per the required conditions -->
+       <div id="div1">
+            <div id="innerdiv1">Image 1</div>
+            <div id="innerdiv2"></div>
+       </div>
+       <div id="div2">
+            <div id="innerdiv3">Image 2</div>
+            <div id="innerdiv4"></div>
+       </div>
+       <div id="div3">
+            <div id="innerdiv5">Image 3</div>
+            <div id="innerdiv6"></div>
+       </div>
+    </body>
+</html>
